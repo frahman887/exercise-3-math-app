@@ -43,8 +43,36 @@ truckPrice. Set the variables to any value you want.
     double circRadius = 7.25;
     double area = Math.PI * Math.pow(circRadius, 2);
     System.out.println("the area of the circle is: " + area);
+//4. Find and display the square root a variable after it is set to 5.0
+        double num = 5.0;
+        double squarrt = Math.sqrt(num);
+        System.out.println("your num sqrt is: " + squarrt);
+//5. Find and display the distance between the points (5, 10) and (85, 50)
+        int x1 = 5;
+        int y1 = 10;
 
+        int x2 = 85;
+        int y2 = 50;
 
+        int distX = x2 - x1;
+        int distY = y2 - y1;
+        double pythag = (double)Math.sqrt(Math.pow(distX, 2) + Math.pow(distY, 2));
+        System.out.println("your distance is: " + pythag);
+//6. Find and display the absolute (positive) value of a variable after it is set to -3.8
+        float num1 = -3.8f;
+        float absNum = Math.abs(num1);
+        System.out.println("the abs value of your num is: "+ absNum);
+
+//7. Find and display a random number between 0 and 1
+        double randomNum = Math.random();
+        System.out.println("Random number: " + randomNum);
+//8. Calculate how many minutes are in 24 days, use a variable for each value you
+//calculate with. BONUS: How many milliseconds?
+        int days = 24;
+        int hours = 24;
+        int mins = 60;
+        int calcMins = (days * hours) * mins;
+        System.out.println("minutes in a day: " + calcMins);
 
 
 
